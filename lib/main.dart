@@ -18,11 +18,46 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
             child: Column(
           children: [
-            TitleSection(name: 'Centro Historico', location: 'Quito'),
-            ButtonSection(),
-            TextSection(description: "Es feo 😊"),
-            ImageSection(image: 'images/campo.jpeg')
-          ],
+              TitleSection(
+                name: 'ROTONDA', 
+                location: 'Quito'
+                ),
+                ImageSection(image: 'images/rotonda.jpg'),
+                TextSection(description: "La ciudad colonial de Quito está llena de historia, si es tu intención hacer un recorrido histórico, entonces está bien. Es limpio, un poco concurrido como las principales ciudades de los paìses, interesanrte por el caracter histórico. Es una callecita no muy grande"),
+                ButtonSection(),
+
+                TitleSection(
+                name: 'CAROLINA', 
+                location: 'Quito'
+                ),
+                ImageSection(image: 'images/caro.jpeg'),
+                TextSection(description: "TEl parque La Carolina es un espacio verde de carácter público en la ciudad de Quito, capital de la República del Ecuador. Está ubicado en la zona de Iñaquito, en el corazón financiero y empresarial de la urbe y es, a su vez, una de las áreas recreacionales más importantes del área metropolitana"),
+                ButtonSection(),
+
+                TitleSection(
+                name: 'PANECILLO', 
+                location: 'Quito' 
+                ),
+                ImageSection(image: 'images/pan.jpg'),
+                TextSection(description: "El Panecillo es una elevación natural de 3.000 metros sobre el nivel del mar, (200 metros más alto que el promedio de la ciudad de Quito) enclavada en el corazón mismo de la ciudad de Quito (Ecuador). Es el sitio más visitado de la ciudad."),
+                 ButtonSection(),
+
+                TitleSection(
+                name: 'PLAZA GRANDE', 
+                location: 'Quito'
+                ),
+                ImageSection(image: 'images/pla.jpg'),
+                TextSection(description: "La plaza de la Independencia, también conocida como plaza Grande, es la principal plaza de la ciudad de Quito, ubicada en el casco antiguo de la ciudad. Se trata de la plaza mayor de la capital, centro político e histórico del Ecuador, y asiento simbólico del presidente del Ecuador"),
+                ButtonSection(),
+                
+                TitleSection(
+                name: 'LA GUARAGUA', 
+                location: 'Quito'
+                ),
+                ImageSection(image: 'images/gua.jpg'),
+                 TextSection(description: "TEn el Quito de 1920-1930, hasta el siglo XX, hablar de La Guaragua era referirse a un barrio ideal, porque lo frecuentaban pintores, bohemios y enamorados. La segunda cuadra de la calle Vargas, conocida como La Guaragua, entre Esmeraldas y Oriente, era el lugar de reunión de los artistas "),
+                ButtonSection(),
+            ],
         )),
       ),
     );
